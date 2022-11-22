@@ -1,0 +1,101 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Outfit',sans-serif;
+}
+.name{
+    font-size: 1.15em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.name:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgba(26, 26, 26,0.2);
+}
+.img{
+    background-image: url(./images/image-equilibrium.jpg);
+    border-radius: 10px;
+    cursor: pointer;
+    width:250px; 
+    height:250px;
+    background-size: cover;
+}
+
+.overlay{
+    background: hsla(178, 100%, 50%,0.3);
+    width:250px; 
+    height:250px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+h4{
+    color: hsl(215, 51%, 70%);
+    font-weight: lighter;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -25px;
+}
+span{
+    font-size: 15px;    
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.duration{
+    color:  hsl(215, 51%, 70%);
+    font-weight: 600;
+}
+.line{
+    background-color: hsl(215, 51%, 70%);
+    height: 1.5px;
+    width: 250px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.credit{
+    margin-left: 10px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    cursor: pointer;
+}
+.start{
+    color: white;
+}
+.start:hover{
+    color: hsl(178, 100%, 50%);
+}
+.avatar-img{
+    border: 2px solid white;
+    border-radius: 70%;
+}
